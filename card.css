@@ -1,0 +1,50 @@
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 100px;
+}
+.card {
+    box-shadow: 3px 3px 7px rgb(206, 204, 204);
+    flex-direction: column ;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    padding: 0;
+    border-radius: 20px 20px 20px 20px ;
+}
+
+img {
+    width: 200px;
+    border-radius: 20px 20px 0px 0px ;
+}
+
+.texto {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.frutas{
+    color: rgb(189, 189, 189);
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.preço{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.botao{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 200px;
+}
+
